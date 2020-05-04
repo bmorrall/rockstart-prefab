@@ -1,8 +1,18 @@
 # Rockstart::Prefab
-Short description and motivation.
+A collection of generators for creating pre-built components.
 
 ## Usage
-How to use my plugin.
+Each Prefabricated component is added to a Rails app by running the relevant generator.
+
+Run a default build of rockstart before running these generators, as it assumes rockstart has or has not installed various features.
+
+> bunlde exec rails generate rockstart
+
+### Sitemap
+
+Generates a dynamic sitemap.xml
+
+> bundle exec rails generate rockstart:perfab:sitemap
 
 ## Installation
 Add this line to your application's Gemfile:

@@ -1,0 +1,8 @@
+Description:
+    Generates a dynamic sitemap.xml file
+
+Example:
+    rails generate rockstart:development:sitemap
+
+    This will create:
+        Installs the sitemap_generator
