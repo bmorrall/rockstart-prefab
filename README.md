@@ -8,9 +8,9 @@ Run a default build of rockstart before running these generators, as it assumes 
 
 > bunlde exec rails generate rockstart
 
-### Sitemap
+### Sitemap (+ robots.txt)
 
-Generates a dynamic sitemap.xml
+Generates a dynamic sitemap.xml and robots.txt
 
 > bundle exec rails generate rockstart:perfab:sitemap
 

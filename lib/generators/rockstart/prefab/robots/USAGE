@@ -1,0 +1,8 @@
+Description:
+    Generates a dynamic robots.xml file
+
+Example:
+    rails generate rockstart:prefab:robots
+
+    This will create:
+        A generator for robots.txt

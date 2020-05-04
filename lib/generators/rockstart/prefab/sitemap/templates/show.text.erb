@@ -1,0 +1,10 @@
+<% if seo_enabled? -%>
+  User-Agent: *
+  Allow: /
+  Disallow: /health
+  Disallow: /health/*
+  Sitemap: <%= sitemap_url %>
+<% else -%>
+  User-Agent: *
+  Disallow: /
+<% end -%>
